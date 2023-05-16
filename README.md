@@ -8,7 +8,8 @@
 
 # IMPROTANT CONCEPT TO KNOW :
 
-1.Entropy: Entropy is a measure of impurity or uncertainty in a dataset. It calculates the disorder or randomness of class labels in the dataset. Mathematically, entropy is calculated as the sum of the negative probability of each class label multiplied by the logarithm of that probability . the formula is  :
+1.Entropy: Entropy is a measure of impurity or uncertainty in a dataset. It calculates the disorder or randomness of class labels in the dataset. Mathematically, entropy is calculated as the sum of the negative probability of each class label multiplied by the logarithm of that probability .the formula is  :
+
 ![Entropy_3](https://github.com/dame-cell/decision-tree/assets/122996026/9a3ff3cf-d36a-4536-a7fb-9e16f5b29f1c)
 
 ##Before delving into information gain, 
