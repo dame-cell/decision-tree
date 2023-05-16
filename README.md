@@ -9,8 +9,7 @@
 # IMPROTANT CONCEPT TO KNOW :
 
 1.Entropy: Entropy is a measure of impurity or uncertainty in a dataset. It calculates the disorder or randomness of class labels in the dataset. Mathematically, entropy is calculated as the sum of the negative probability of each class label multiplied by the logarithm of that probability . the formula is  :
-
-
+![Entropy_3](https://github.com/dame-cell/decision-tree/assets/122996026/9a3ff3cf-d36a-4536-a7fb-9e16f5b29f1c)
 
 
 2. Information Gain: Information gain quantifies the reduction in entropy achieved by splitting the data based on a particular feature. It measures the amount of information provided by a feature about the class labels or outcomes. The feature with the highest information gain is selected as the splitting criterion. Mathematically, information gain is calculated as the difference between the entropy of the parent node and the weighted average entropy of the child nodes.  the formula is
