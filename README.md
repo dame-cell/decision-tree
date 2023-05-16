@@ -26,7 +26,7 @@ Entropy measures the impurity or uncertainty in a dataset. It quantifies the dis
 # Information Gain = Entropy before splitting - Entropy after splitting
 
 
-3. Gini Index: Gini index is another measure of impurity used in decision trees. It calculates the probability of misclassifying a randomly chosen element if it were labeled randomly according to the distribution of classes in a subset. The feature with the lowest Gini index is selected as the splitting criterion. Mathematically, the Gini index is calculated as the sum of the squared probabilities of each class label subtracted from 
+3. Gini Index: Gini index is another measure of impurity used in decision trees. It calculates the probability of misclassifying a randomly chosen element if it were labeled randomly according to the distribution of classes in a subset. The feature with the lowest Gini index is selected as the splitting criterion. Mathematically, the Gini index is calculated as the sum of the squared probabilities of each class label subtracted from 1 
 FORMULA IS :
 
 ![15 pngrid](https://github.com/dame-cell/decision-tree/assets/122996026/88ec1aaa-d4eb-4537-b6cd-e4e393cba06a)
