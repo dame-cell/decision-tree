@@ -10,8 +10,7 @@
 
 1.Entropy: Entropy is a measure of impurity or uncertainty in a dataset. It calculates the disorder or randomness of class labels in the dataset. Mathematically, entropy is calculated as the sum of the negative probability of each class label multiplied by the logarithm of that probability . the formula is  :
 
-# Entropy equation
-# entropy = -sum(p * log2(p))
+
 
 
 2. Information Gain: Information gain quantifies the reduction in entropy achieved by splitting the data based on a particular feature. It measures the amount of information provided by a feature about the class labels or outcomes. The feature with the highest information gain is selected as the splitting criterion. Mathematically, information gain is calculated as the difference between the entropy of the parent node and the weighted average entropy of the child nodes.  the formula is
@@ -20,11 +19,9 @@
 
 
 3. Gini Index: Gini index is another measure of impurity used in decision trees. It calculates the probability of misclassifying a randomly chosen element if it were labeled randomly according to the distribution of classes in a subset. The feature with the lowest Gini index is selected as the splitting criterion. Mathematically, the Gini index is calculated as the sum of the squared probabilities of each class label subtracted from 
+FORMULA IS :
 
-
-
-
-
+![15 pngrid](https://github.com/dame-cell/decision-tree/assets/122996026/88ec1aaa-d4eb-4537-b6cd-e4e393cba06a)
 
 # HERE ARE THE DETAILED STEPS TO PERFORM DECISION TREES:
 
@@ -47,3 +44,6 @@
 9. Interpretability and Visualization: Analyze and interpret the decision tree to understand the underlying patterns and rules it has learned. Visualize the decision tree to communicate its structure and decision-making process effectively.
 
 10. Deployment and Monitoring: Deploy the decision tree model in a production environment if required. Monitor its performance over time and re-evaluate and update the model as new data becomes available.
+
+
+
