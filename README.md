@@ -11,8 +11,16 @@
 1.Entropy: Entropy is a measure of impurity or uncertainty in a dataset. It calculates the disorder or randomness of class labels in the dataset. Mathematically, entropy is calculated as the sum of the negative probability of each class label multiplied by the logarithm of that probability . the formula is  :
 ![Entropy_3](https://github.com/dame-cell/decision-tree/assets/122996026/9a3ff3cf-d36a-4536-a7fb-9e16f5b29f1c)
 
+##Before delving into information gain, 
+
+it's essential to have a good understanding of entropy. Entropy is a fundamental concept in decision tree algorithms and serves as the basis for calculating information gain.
+
+Entropy measures the impurity or uncertainty in a dataset. It quantifies the disorder or randomness of class labels or outcomes within the dataset. By calculating entropy, we can assess the homogeneity of the dataset and determine how well the instances are classified into different classes.
 
 2. Information Gain: Information gain quantifies the reduction in entropy achieved by splitting the data based on a particular feature. It measures the amount of information provided by a feature about the class labels or outcomes. The feature with the highest information gain is selected as the splitting criterion. Mathematically, information gain is calculated as the difference between the entropy of the parent node and the weighted average entropy of the child nodes.  the formula is
+
+
+![dataset-imperfect-split (1)](https://github.com/dame-cell/decision-tree/assets/122996026/2e66043c-2876-4dfe-becf-323f1672111d)
 
 # Information Gain = Entropy before splitting - Entropy after splitting
 
